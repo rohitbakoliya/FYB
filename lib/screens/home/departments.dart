@@ -1,5 +1,6 @@
 import 'package:auth/screens/home/semesters.dart';
 import 'package:auth/services/addBook.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class Departments extends StatefulWidget {
@@ -58,15 +59,19 @@ class _DepartmentsState extends State<Departments> {
 
     
     final topAppBar = AppBar(
+      leading: IconButton(
+          icon: Icon(Icons.exit_to_app),
+          onPressed: () async{
+          await FirebaseAuth.instance.signOut();
+        },
+      ),
       elevation: 0.1,
       backgroundColor: Color.fromRGBO(58, 66, 86, 1.0),
       title: Text('Departments'),
       actions: <Widget>[
         IconButton(
-          icon: Icon(Icons.search),
-          onPressed: () {
-            
-          },
+           icon: Icon(Icons.search),
+          onPressed: (){}
         ),
         SizedBox(width: 10),
       ],
