@@ -113,9 +113,9 @@ class _ShowDonor2State extends State<ShowDonor2> {
   
 
   Future<void> sendEmail() async{
-    String username = '*********'; //Your Email;
-    String password = '*********'; //Your Email's password;
-
+    String username = '********'; //Your Email;
+    String password = '********'; //Your Email's password;
+    final timeStamp = new DateTime.now().millisecondsSinceEpoch.toString();
     final smtpServer = gmail(username, password); 
     // Creating the Gmail server
     String platformResponse;  
@@ -124,7 +124,7 @@ class _ShowDonor2State extends State<ShowDonor2> {
       ..from = Address(username)
       ..recipients.add(this.donorEmail) //recipent email
       ..subject = 'Request For Book ${this.widget.title} By ${this.userName}' //subject of the email
-      ..html = "<h3>Hello ${this.donorName}!</h3>\n<p>Your uploaded book named <strong>${this.widget.title} | ${this.widget.author}</strong> on Find Your Book App has a request By ${this.userName}.</p> <p>Contact Details are: <br>Roll No: ${this.userRollNo} <br>Name: ${this.userName} <br> Mobile No: ${this.userMob} <br> Email: ${this.userEmail}</p> \n<p> If you already delivered this book then click on this <a href='http://chefs-arena-rohit.netlify.com/' target='_blank' >link</a> to keep us updating.</p><p>Thanks!</p>";
+      ..html = "<h3>Hello ${this.donorName}!</h3>\n<p>Your uploaded book named <strong>${this.widget.title} | ${this.widget.author}</strong> on Find Your Book App has a request By ${this.userName}.</p> <p>Contact Details are: <br>Roll No: ${this.userRollNo} <br>Name: ${this.userName} <br> Mobile No: ${this.userMob} <br> Email: ${this.userEmail}</p> \n<p> If you already delivered this book then click on this <a href='https://auth-ce30b.web.app/?date=$timeStamp&author=${this.widget.author}&title=${this.widget.title}&username=${this.widget.rollNo}' target='_blank' >link</a> to keep us updating.</p><p>Thanks!</p>";
 
     send(message, smtpServer).then((sendReport){
        platformResponse = 'Your request has been sent successfully.';
