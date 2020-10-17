@@ -5,6 +5,7 @@
 - [About the project](#about)
 - [Some glimpses of project](#glimpse)
 - [Getting started with flutter](#start)
+- [Install at local system](#local)
 - [Contributors](#con)
 
 **<a name="about"></a>About the Project**
@@ -23,7 +24,7 @@ This is a digital platform for sharing books in an organization. The project is 
 
 ![](https://github.com/jignesh1604/Find-Your-Book/blob/master/Images/img4.jpg)
 
-**<a name="start"></a>Installing Flutter**
+**<a name="start"></a>Getting Started with Flutter**
 
 A few resources to get you started if this is your first Flutter project:
 
@@ -31,6 +32,13 @@ A few resources to get you started if this is your first Flutter project:
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
 For help getting started with Flutter, view our [online documentation](https://flutter.dev/docs), which offers tutorials, samples, guidance on mobile development, and a full API reference.
+
+**<a name="local"></a>Install at Local System**
+$ git clone https://github.com/rohitbakoliya/COVID-19India.git
+$ cd COVID-19India
+$ flutter pub get
+$ flutter run (to run in debug mode)
+$ flutter build apk (to build release apk)
 
 **<a name="con"></a>Authors**
 
