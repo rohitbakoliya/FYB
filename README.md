@@ -2,12 +2,12 @@
 
 **Table of Contents**
 
-- About the project
+- [About the project](#about)
 - Some glimpses of project
 - Getting started with flutter
 - Contributors
 
-**About the Project**
+**<a name="about"></a>About the Project**
 
 This is a digital platform for sharing books in an organization. The project is created using flutter framework and firebase services. Google authentication is used for validation of an account. There is also a recommendation system for a particular subject. If student is not aware of subject then this system is useful for him/her. A form is created for adding new book. We can search a book by it&#39;s name from home page.
 
