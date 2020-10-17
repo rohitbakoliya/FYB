@@ -35,11 +35,13 @@ For help getting started with Flutter, view our [online documentation](https://f
 
 **<a name="local"></a>Install at Local System**
 
+```
 $ git clone https://github.com/jignesh1604/Find-Your-Book.git 
 $ cd Find-Your-Book 
 $ flutter pub get
 $ flutter run (to run in debug mode)
 $ flutter build apk (to build release apk)
+```
 
 **<a name="con"></a>Authors**
 
