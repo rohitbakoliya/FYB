@@ -14,9 +14,6 @@ This is a digital platform for sharing books in an organization. The project is 
 
 **<a name="glimpse"></a>Some Glimpses of Project**
 
-![](https://github.com/jignesh1604/Find-Your-Book/blob/master/Images/img0.jpg)
-
-![](https://github.com/jignesh1604/Find-Your-Book/blob/master/Images/img1.jpg)
 
 
 **<a name="start"></a>Getting Started with Flutter**
