@@ -34,8 +34,9 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our [online documentation](https://flutter.dev/docs), which offers tutorials, samples, guidance on mobile development, and a full API reference.
 
 **<a name="local"></a>Install at Local System**
-$ git clone https://github.com/rohitbakoliya/COVID-19India.git
-$ cd COVID-19India
+
+$ git clone https://github.com/jignesh1604/Find-Your-Book.git 
+$ cd Find-Your-Book 
 $ flutter pub get
 $ flutter run (to run in debug mode)
 $ flutter build apk (to build release apk)
