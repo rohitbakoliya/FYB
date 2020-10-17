@@ -34,8 +34,8 @@ For help getting started with Flutter, view our [online documentation](https://f
 
 **<a name="con"></a>Contributors**
 
-- [Jignesh Jinjala](#https://github.com/jignesh1604)
-- [Rohit Bakoliya](#https://github.com/rohitbakoliya)
-- [Jitendra Jat](#https://github.com/jitendrajat10099)
-- [Shubham Shekhaliya](#https://github.com/shubham4756)
-- [Keyur Tarsariya](#https://github.com/Keyur012)
+- [Jignesh Jinjala](https://github.com/jignesh1604)
+- [Rohit Bakoliya](https://github.com/rohitbakoliya)
+- [Jitendra Jat](https://github.com/jitendrajat10099)
+- [Shubham Shekhaliya](https://github.com/shubham4756)
+- [Keyur Tarsariya](https://github.com/Keyur012)
