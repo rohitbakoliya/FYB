@@ -23,7 +23,7 @@ This is a digital platform for sharing books in an organization. The project is 
 
 ![](https://github.com/jignesh1604/Find-Your-Book/blob/master/Images/img4.jpg)
 
-**<a name="start"></a>Getting Started with Flutter**
+**<a name="start"></a>Installing Flutter**
 
 A few resources to get you started if this is your first Flutter project:
 
