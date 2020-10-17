@@ -32,7 +32,7 @@ A few resources to get you started if this is your first Flutter project:
 
 For help getting started with Flutter, view our [online documentation](https://flutter.dev/docs), which offers tutorials, samples, guidance on mobile development, and a full API reference.
 
-**<a name="con"></a>Contributors**
+**<a name="con"></a>Authors**
 
 - [Jignesh Jinjala](https://github.com/jignesh1604)
 - [Rohit Bakoliya](https://github.com/rohitbakoliya)
